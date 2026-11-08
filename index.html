@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kavin V — Electrical & Embedded Engineer</title>
+<meta property="og:title" content="Kavin V — Electrical & Embedded Engineer"><meta property="og:description" content="Portfolio: BMS, Modbus integration, embedded systems and MEP QA/QC. Innovsense 1st place winner."><meta property="og:type" content="website"><meta name="description" content="Portfolio of Kavin V, Electrical & Electronics Engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070a1a;--ink:#eaf0ff;--mut:#93a0c4;--card:rgba(255,255,255,.05);--line:rgba(255,255,255,.12);--a:#38e8ff;--b:#b46bff;--c:#ff6bb5;--cv:.9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#070a1a}}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f4f6ff;--ink:#0b1230;--mut:#4d5b86;--card:rgba(255,255,255,.75);--line:rgba(10,20,70,.12);--a:#0693b8;--b:#7a35d6;--c:#d6246e;--cv:.35}}
+:root[data-theme="dark"]{--bg:#070a1a}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{background:var(--bg);color:var(--ink);font-family:"Space Grotesk",system-ui,-apple-system,sans-serif;line-height:1.6;overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;opacity:var(--cv);pointer-events:none}
+main,header,footer{position:relative;z-index:1}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 10px) 5vw 10px;background:color-mix(in srgb,var(--bg) 70%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav b{font-size:18px;letter-spacing:.08em;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav div{display:flex;gap:18px;font-size:14px;overflow-x:auto}
+nav a{color:var(--mut);text-decoration:none;white-space:nowrap}nav a:hover{color:var(--a)}
+@media(max-width:640px){nav div{display:none}}
+section{max-width:1060px;margin:auto;padding:90px 5vw 30px}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding-top:110px}
+.tag{display:inline-block;width:fit-content;padding:6px 14px;border:1px solid var(--line);border-radius:30px;font-size:13px;color:var(--a);background:var(--card);margin-bottom:18px}
+h1{font-size:clamp(44px,11vw,112px);line-height:1;letter-spacing:-.02em;font-weight:700}
+h1 span{background:linear-gradient(90deg,var(--a),var(--b),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:clamp(17px,2.4vw,24px);color:var(--mut);max-width:640px;margin:18px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 26px;border-radius:30px;text-decoration:none;font-weight:600;font-size:15px;border:1px solid var(--line);color:var(--ink);background:var(--card)}
+.btn.p{background:linear-gradient(90deg,var(--a),var(--b));color:#060818;border:0;box-shadow:0 8px 30px color-mix(in srgb,var(--a) 40%,transparent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-top:46px}
+.stat{padding:18px;border-radius:18px;background:var(--card);border:1px solid var(--line);backdrop-filter:blur(8px)}
+.stat b{display:block;font-size:34px;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:13px;color:var(--mut)}
+h2{font-size:clamp(30px,5vw,46px);margin-bottom:6px}
+h2 i{font-style:normal;color:var(--a);font-size:.45em;letter-spacing:.2em;display:block}
+.lead{color:var(--mut);margin-bottom:28px;max-width:640px}
+.tl{position:relative;padding-left:26px;border-left:2px solid var(--line)}
+.item{position:relative;margin-bottom:22px;padding:20px 22px;border-radius:18px;background:var(--card);border:1px solid var(--line);backdrop-filter:blur(8px);transition:transform .25s,border-color .25s}
+.item:hover{transform:translateY(-4px);border-color:var(--a)}
+.item::before{content:"";position:absolute;left:-35px;top:26px;width:14px;height:14px;border-radius:50%;background:var(--a);box-shadow:0 0 16px var(--a)}
+.item h3{font-size:19px}.item .m{font-size:13px;color:var(--a);margin:2px 0 8px}
+.item ul{margin-left:18px;color:var(--mut);font-size:15px}.item li{margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.grid .item::before{display:none}
+.trophy{border-color:#ffd84d;background:linear-gradient(135deg,rgba(255,216,77,.14),var(--card))}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{padding:7px 14px;border-radius:20px;font-size:14px;background:var(--card);border:1px solid var(--line)}
+.sk h3{margin:18px 0 10px;font-size:15px;color:var(--a);letter-spacing:.1em;text-transform:uppercase}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .7s,transform .7s}.rv.on{opacity:1;transform:none}
+footer{text-align:center;padding:70px 5vw 60px}
+footer h2{margin-bottom:14px}
+footer p{color:var(--mut);margin-top:26px;font-size:13px}
+#fx{position:fixed;inset:0;width:100%;height:100%;z-index:50;pointer-events:none}
+#cur{position:fixed;left:0;top:0;z-index:51;pointer-events:none;font-size:22px;filter:drop-shadow(0 0 8px var(--a));transform:translate(-100px,-100px);transition:opacity .3s}
+@media (pointer:fine){body,a{cursor:none}}
+@media (pointer:coarse){#cur{display:none}}
+</style></head><body>
+<canvas id="bg"></canvas><canvas id="fx"></canvas><div id="cur">⚡</div>
+<nav><b>KV</b><div><a href="#about">About</a><a href="#exp">Experience</a><a href="#proj">Projects</a><a href="#edu">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<main>
+<header class="hero" id="top" style="max-width:1060px;margin:auto;padding-left:5vw;padding-right:5vw">
+ <div class="tag">● Open to work · Tiruppur, India</div>
+ <h1>Hi, I’m <span>Kavin V</span></h1>
+ <p class="sub">Electrical &amp; Electronics Engineer building smart systems — from Modbus-integrated buildings to embedded accident detection.</p>
+ <div class="btns"><a class="btn p" href="#contact">Hire me</a><a class="btn" href="#exp">See my work</a></div>
+ <div class="stats">
+  <div class="stat"><b data-n="8.97" data-d="2">0</b><span>CGPA / 10</span></div>
+  <div class="stat"><b data-n="4">0</b><span>Roles &amp; internships</span></div>
+  <div class="stat"><b data-n="3">0</b><span>BMS projects delivered</span></div>
+  <div class="stat"><b>1st</b><span>Innovsense winner</span></div>
+ </div>
+</header>
+
+<section id="about" class="rv"><h2><i>ABOUT</i>Engineer. Builder. Learner.</h2>
+<p class="lead">B.E. graduate with hands-on experience in Modbus device integration, tag mapping and on-site commissioning, plus embedded development with Arduino, IMU, GPS and GSM modules. Skilled in serial communication, debugging and clear technical documentation — now growing into networking, TCP/IP, firewalls and security tools like Nmap and Nessus.</p></section>
+
+<section id="exp"><h2 class="rv"><i>EXPERIENCE</i>Where I’ve worked</h2>
+<div class="tl">
+<div class="item rv"><h3>MEP Engineer (QA/QC) · SAH Company</h3><div class="m">Aug 2026 – Oct 2026</div><ul><li>QA/QC of mechanical, electrical and plumbing works against drawings and specifications.</li><li>Prepared schematics, planned with Primavera P6 and handled BIM models for MEP coordination.</li></ul></div>
+<div class="item rv"><h3>Intern, Building Management Systems · NETIX.AI</h3><div class="m">Jun 2025 – Dec 2025 · Coimbatore</div><ul><li>Tag mapping and device integration with ModScan32 (Modbus), improving monitoring and control accuracy.</li><li>Configured and tested BMS logic across 3 residential projects — Skyview, Samana Lake View, Dolce Vita — using AutoCAD and LabVIEW.</li><li>Supported on-site commissioning with the systems integration team.</li></ul></div>
+<div class="item rv"><h3>Intern, Motor &amp; Pump Design · Ajhantha Aqua Inc</h3><div class="m">Jul 2024 · Avinashi</div><ul><li>Studied motor and pump design and winding operation under senior engineers.</li><li>Assisted in testing to verify motor performance and quality standards.</li></ul></div>
+<div class="item rv"><h3>Intern, Electric Vehicle Design · Ozotec Automobile</h3><div class="m">Jan 2024 – Feb 2024 · Coimbatore</div><ul><li>Exposure to electric scooter design, manufacturing and maintenance workflows.</li><li>Supported efficiency testing against design specifications.</li></ul></div>
+</div></section>
+
+<section id="proj"><h2 class="rv"><i>PROJECTS &amp; ACHIEVEMENTS</i>Things I’ve built</h2>
+<div class="grid">
+<div class="item trophy rv"><h3>🏆 EAS for Vehicles</h3><div class="m">1st place · Innovsense · INR 10,000</div><ul><li>Smart accident detection using IMU, GPS and GSM with automatic emergency alerts.</li><li>Custom Arduino code for real-time crash detection and reliable GSM communication.</li></ul></div>
+<div class="item rv"><h3>Multivibrator Circuit</h3><div class="m">Altium &amp; EasyEDA</div><ul><li>Full schematic capture and PCB layout with error checking and design optimization.</li></ul></div>
+<div class="item rv"><h3>Wireless EV Charging Station</h3><div class="m">Inductive coupling</div><ul><li>Built and automated a contact-free wireless charging system for electric vehicles.</li></ul></div>
+</div></section>
+
+<section id="edu"><h2 class="rv"><i>EDUCATION &amp; LICENCES</i>Learning path</h2>
+<div class="grid">
+<div class="item rv"><h3>B.E. Electrical &amp; Electronics</h3><div class="m">KPR Institute of Engineering and Technology · 2022–2026</div><ul><li>CGPA 8.97 / 10</li></ul></div>
+<div class="item rv"><h3>HSC · 87%</h3><div class="m">Literacy Mission Matric Hr. Sec. School, Tiruppur · 2021–2022</div></div>
+<div class="item rv"><h3>SSLC · 96%</h3><div class="m">Shri Ganga Matriculation School, Erode · 2019–2020</div></div>
+<div class="item rv"><h3>Certifications</h3><ul><li>Introduction to Internet of Things — NPTEL</li><li>Crash Course on Python — Coursera</li><li>PCB Design Course — Altium Education</li><li>MATLAB Onramp — MathWorks</li></ul></div>
+</div></section>
+
+<section id="skills" class="sk rv"><h2><i>SKILLS</i>Toolbox</h2>
+<h3>Networking &amp; communication</h3><div class="chips"><span>Modbus (ModScan32)</span><span>Serial</span><span>GSM</span><span>Device integration</span><span>Tag mapping</span><span>Commissioning</span></div>
+<h3>Embedded</h3><div class="chips"><span>Arduino</span><span>IMU</span><span>GPS</span><span>GSM modules</span><span>Crash detection</span></div>
+<h3>Programming</h3><div class="chips"><span>C</span><span>Python (basics)</span><span>HTML</span><span>CSS</span></div>
+<h3>Tools &amp; engineering</h3><div class="chips"><span>AutoCAD</span><span>LabVIEW</span><span>Altium</span><span>EasyEDA</span><span>TINA</span><span>MATLAB</span><span>Power BI</span><span>Primavera P6</span><span>BMS</span><span>MEP QA/QC</span></div>
+<h3>Leadership</h3><div class="chips"><span>Designer &amp; Event Organizer, IEEE PELS</span><span>Member, SSEM &amp; CPC Committees</span></div>
+<h3>Languages</h3><div class="chips"><span>English</span><span>Tamil</span><span>Malayalam (basic)</span><span>Hindi (basic)</span></div></section>
+</main>
+
+<footer id="contact" class="rv"><h2><i>CONTACT</i>Let’s build something together</h2>
+<div class="btns" style="justify-content:center"><a class="btn p" href="mailto:vkavin708@gmail.com">vkavin708@gmail.com</a><a class="btn" href="tel:+919597703541">+91 95977 03541</a><a class="btn" href="https://linkedin.com/in/kavin182005">LinkedIn</a></div>
+<p>© 2026 Kavin V</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// 3D background
+const cv=document.getElementById('bg'),R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true});
+R.setPixelRatio(Math.min(devicePixelRatio,2));
+const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(55,1,.1,100);cam.position.z=14;
+const G=new THREE.Group();sc.add(G);
+const mk=(geo,col,x,y,z)=>{const m=new THREE.Mesh(geo,new THREE.MeshBasicMaterial({color:col,wireframe:true}));m.position.set(x,y,z);G.add(m);return m};
+const o=[mk(new THREE.IcosahedronGeometry(3.2,1),0x38e8ff,4,1,-2),mk(new THREE.TorusKnotGeometry(1.5,.4,100,12),0xb46bff,-6,-3,-4),mk(new THREE.OctahedronGeometry(1.4),0xff6bb5,-4,4,-3),mk(new THREE.TorusGeometry(2,.12,8,50),0x38e8ff,7,-5,-3)];
+const pp=[];for(let i=0;i<700;i++)pp.push((Math.random()-.5)*50,(Math.random()-.5)*50,(Math.random()-.5)*30);
+const pg=new THREE.BufferGeometry();pg.setAttribute('position',new THREE.Float32BufferAttribute(pp,3));
+const pts=new THREE.Points(pg,new THREE.PointsMaterial({color:0x9db4ff,size:.06}));sc.add(pts);
+let mx=0,my=0,sy=0;
+addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+addEventListener('scroll',()=>sy=scrollY/innerHeight);
+function rs(){R.setSize(innerWidth,innerHeight,false);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}
+addEventListener('resize',rs);rs();
+const clk=new THREE.Clock();
+(function loop(){requestAnimationFrame(loop);const t=clk.getElapsedTime();
+ o.forEach((m,i)=>{m.rotation.x=t*.15*(i+1)*.6;m.rotation.y=t*.2*(i%2?-1:1)});
+ G.rotation.y+=(mx*.6-G.rotation.y)*.04;G.rotation.x+=(my*.4-G.rotation.x)*.04;
+ G.position.y=sy*2.5;pts.rotation.y=t*.02+sy*.2;R.render(sc,cam)})();
+// electric cursor
+const fx=document.getElementById('fx'),X=fx.getContext('2d'),cur=document.getElementById('cur');let bolts=[],lx=null,ly=null;
+function rz(){const d=devicePixelRatio||1;fx.width=innerWidth*d;fx.height=innerHeight*d;X.setTransform(d,0,0,d,0,0)}addEventListener('resize',rz);rz();
+function bolt(x1,y1,x2,y2,w){const pts=[[x1,y1]],n=Math.max(3,Math.hypot(x2-x1,y2-y1)/14|0),j=28;for(let i=1;i<n;i++){const t=i/n;pts.push([x1+(x2-x1)*t+(Math.random()-.5)*j,y1+(y2-y1)*t+(Math.random()-.5)*j])}pts.push([x2,y2]);bolts.push({p:pts,l:1,w});if(bolts.length>60)bolts.shift()}
+addEventListener('pointermove',e=>{cur.style.transform=`translate(${e.clientX-11}px,${e.clientY-14}px)`;
+ if(lx!==null&&Math.hypot(e.clientX-lx,e.clientY-ly)>8){bolt(lx,ly,e.clientX,e.clientY,2);if(Math.random()<.5){const a=Math.random()*6.28,r=25+Math.random()*45;bolt(e.clientX,e.clientY,e.clientX+Math.cos(a)*r,e.clientY+Math.sin(a)*r,1)}}lx=e.clientX;ly=e.clientY});
+addEventListener('pointerdown',e=>{for(let i=0;i<10;i++){const a=i/10*6.28+Math.random()*.4,r=60+Math.random()*90;bolt(e.clientX,e.clientY,e.clientX+Math.cos(a)*r,e.clientY+Math.sin(a)*r,2.5)}});
+document.addEventListener('pointerleave',()=>{lx=null;cur.style.opacity=0});document.addEventListener('pointerenter',()=>cur.style.opacity=1);
+(function fl(){requestAnimationFrame(fl);X.clearRect(0,0,innerWidth,innerHeight);const cs=getComputedStyle(document.documentElement),g=cs.getPropertyValue('--a').trim()||'#38e8ff',c=matchMedia('(prefers-color-scheme: light)').matches&&document.documentElement.dataset.theme!=='dark'?cs.getPropertyValue('--b').trim():'#fff';
+ X.lineJoin='round';bolts=bolts.filter(b=>b.l>0);bolts.forEach(b=>{X.globalAlpha=b.l;X.beginPath();b.p.forEach((q,i)=>i?X.lineTo(q[0],q[1]):X.moveTo(q[0],q[1]));X.shadowColor=g;X.shadowBlur=16;X.strokeStyle=g;X.lineWidth=b.w+2;X.stroke();X.shadowBlur=0;X.strokeStyle=c;X.lineWidth=b.w*.6;X.stroke();b.l-=.08});X.globalAlpha=1})();
+// reveal + counters
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+document.querySelectorAll('[data-n]').forEach(el=>{const n=+el.dataset.n,d=+(el.dataset.d||0);let s=null;
+ const f=ts=>{s=s||ts;const p=Math.min((ts-s)/1400,1);el.textContent=(n*(1-Math.pow(1-p,3))).toFixed(d);if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)});
+</script></body></html>
